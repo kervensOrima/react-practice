@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+// import Birthday from "./birthday/Brithday";
+// import Index from "./reviews/Index";
+// import Index from "./tours/Index";
+// import Question from "./accordion/Questions";
+
+import Index from "./tabs/Index";
+
+
+// import Index from "./menu/Index";
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // <div className="container">
+    //   {/* <Birthday /> */}
+    // </div>
+
+
+    // <Index />
+
+    // <Index />
+
+    // <Question />
+
+
+
+    // <Index />
+
+
+    <Index />
+
+
+
+
+  )
+
 }
 
 export default App;

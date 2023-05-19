@@ -2,11 +2,12 @@
 // import Index from "./reviews/Index";
 // import Index from "./tours/Index";
 // import Question from "./accordion/Questions";
-
-import Index from "./tabs/Index";
-
-
+// import Index from "./tabs/Index";
 // import Index from "./menu/Index";
+
+import Index from "./color-generator/Index";
+
+// import Slider from "./slider/Slider";
 
 
 function App() {
@@ -28,9 +29,14 @@ function App() {
     // <Index />
 
 
-    <Index />
+    // <Index />
 
 
+
+    // <Slider/>
+
+
+    <Index/>
 
 
   )

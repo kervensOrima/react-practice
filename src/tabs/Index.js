@@ -79,9 +79,8 @@ const Index = () => {
                             {jobs[value].duties && jobs[value].duties.map((duty, index) => {
                                 return (
                                     <div className='job-desc' key={index}>
-                                        <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight>
+                                        <FaAngleDoubleRight className="job-icon" />
                                         <p >{duty}</p>
-
                                     </div>
                                 )
                             })}
